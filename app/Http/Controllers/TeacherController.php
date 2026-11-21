@@ -9,8 +9,8 @@ class TeacherController extends Controller
     {
         $teacher = new Teacher();
 
-        $teacher->teacher_id = 'T002';
-        $teacher->teacher_name = 'Bhuraj Shrestha';
+        $teacher->teacher_id = 'TA2848';
+        $teacher->teacher_name = 'Tahmid';
         $teacher->teacher_department = 'Computer';
 
         $teacher->save();

@@ -12,8 +12,8 @@ class StudentController extends Controller
     {
 
     $student = new Student();
-    $student -> std_id = 'S005';
-    $student -> std_name = 'Bhuraj Shrestha';
+    $student -> std_id = '20081754';
+    $student -> std_name = 'Tahmid Ahmed';
     $student -> std_campus = 'Campus';
     $student ->save();
 
